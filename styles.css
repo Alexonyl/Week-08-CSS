@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(179, 179, 179);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(167, 167, 166);
+    color: rgb(70, 8, 111);
+}
+
+h1 {
+    color: rgb(108, 29, 183);
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(22, 114, 114);
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: rgb(2, 22, 94);
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    display: inline-block;
+}
+
+table {
+    font-weight: 800;
+    background-color: rgb(167, 167, 166);
+    color: rgb(70, 8, 111);
+    table-layout: auto;
+    width: 100%;
+    height: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div :hover {
+    color: blue;
+}
+
+ul {
+    color: rgb(2, 22, 94);
+}
